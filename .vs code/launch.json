@@ -1,0 +1,35 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: FastAPI Server",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/server/run.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/server",
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}/server"
+            }
+        },
+        {
+            "name": "Python: Initialize Database",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/server/init_db.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/server",
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}/server"
+            }
+        },
+        {
+            "name": "Python: Client Test",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/client/client.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/client"
+        }
+    ]
+}

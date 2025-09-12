@@ -1,0 +1,1 @@
+"""Mini-Uber FastAPI Application"""
